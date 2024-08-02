@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+ font-family: "Chakra Petch", sans-serif;
+ background-image: url(agenciacorinthians-foto-197644.jpg.webp);
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: #000000;
+ font-size: 1.2em;
+}
+
+.cabecalho {
+    background-color: #5e0303;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.7em;
+    font-weight: bold;
+
+}
+
+h2 {
+    color: #5e0303;
+    font-size: 1.4em;
+
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.biografia p{
+    margin: 10px;
+}
+
+.galeria{
+    text-align: center;
+}
+
+.galeria h2{
+    text-align: left;
+}
+
+.galeria img {
+    margin: 30px;
+    height: auto;
+    border-radius: 8px;
+    height: 250px;
+    width: 300px;
+    box-shadow: 2px 4px 9px rgb(71, 71, 71);
+
+}
+
+.videoyuri{
+    text-align: center;
+}
+
+.videoyuri video{
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.videoyuri h2{
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5e0303;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
